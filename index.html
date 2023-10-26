@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Andres Castro</title>
+</head>
+<body id="home">
+    <div id="view1">
+      <div class="home-right">
+        <h1 data-aos="fade-right">Andres Castro</h1>
+        <p data-aos="fade-right" data-aos-delay="200" class="webDeveloper-sh">Web Developer</p>
+
+        <p class="home-description" data-aos="fade-up" data-aos-delay="300">
+          Front-End Web Developer passionate about creating exceptional user interfaces and efficient solutions. Proficient in HTML, CSS, JS, React, and Adobe Suite tools (AI, Ph, AF, Pr) and Figma for design.
+        </p>
+      </div>
+      <div class="home-left" data-aos="zoom-in-down" data-aos-delay="400">
+        <img src="./img/My project.png" alt="">
+      </div>
+    </div>
+
+    <!-- render menu -->
+    <menu-nav></menu-nav>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="./js/loadmenu.js"></script>
+<script src="./js/logic.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1100
+  });
+</script>
+</body>
+
+</html>
