@@ -134,6 +134,9 @@ h1 {
 #projects_page #project4 .color-line {
   background-color: #2CC5EF;
 }
+#projects_page #project5 .color-line {
+  background-color: #5BC0F8;
+}
 #projects_page .project-container {
   display: flex;
   margin: 20px var(--paddingLeftRight);
@@ -180,9 +183,13 @@ h1 {
   }
   #projects_page #project3 .color-line {
     background-color: #0081C9;
+    height: 30%;
   }
   #projects_page #project4 .color-line {
     background-color: #2CC5EF;
+    height: 30%;
+  }
+  #projects_page #project5 .color-line {
     height: 30%;
   }
   #projects_page .project {

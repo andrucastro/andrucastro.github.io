@@ -173,6 +173,11 @@ h1{
             background-color:#2CC5EF;
         }
     }
+    #project5{
+        .color-line{
+            background-color:#5BC0F8;
+        }
+    }
 
 
     // Project left and Right Boxes Container
@@ -248,11 +253,18 @@ h1{
         #project3{
             .color-line{
                 background-color:#0081C9;
+                height: 30%;
             }
         }
         #project4{
             .color-line{
                 background-color:#2CC5EF;
+                height: 30%;
+            }
+        }
+
+        #project5{
+            .color-line{
                 height: 30%;
             }
         }
